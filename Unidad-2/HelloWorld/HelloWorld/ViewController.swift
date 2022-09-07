@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBAction func PrimeraAccion(_ sender: Any) {
+        Etiqueta1.text = "Hola Mundo"
     }
     @IBOutlet var Etiqueta1: UILabel!
     
