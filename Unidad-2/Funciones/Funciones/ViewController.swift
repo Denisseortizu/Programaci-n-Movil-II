@@ -1,7 +1,7 @@
 //
 //  ViewController.swift
 //  Funciones
-//
+// Denisse Ortiz Ordaz
 //  Created by Mac12 on 14/09/22.
 //
 
@@ -31,12 +31,14 @@ class ViewController: UIViewController {
     
     //Función sin retorno Raíz Cuadrada
     func RaizCuadrada(numero:Int){ //Recibimos un dato llamado numero que será de tipo Int
-        let resultado = sqrt(Double(numero))
-        print("La raiz cuadrada de \(numero) es \(resultado)")
+        let resultado = sqrt(Double(numero))//Aquí resultado guardará el valor de la operación
+                                            //cuadrada del numero que convertimos a Doble
+        print("La raiz cuadrada de \(numero) es \(resultado)") //Imprimimos el resultado
     }
     
-    func Potencia(numero:Int, potencia:Int){
-        let resultado = pow(Double(numero), Double(potencia))
+    //Funcion que realiza la n potencia de un número dado
+    func Potencia(numero:Int, potencia:Int){//Recibe dos datos tipo entero
+        let resultado = pow(Double(numero), Double(potencia))//Inicializamos resultado
         print("El número \(numero) elevado a la   \(potencia) es \(resultado)")
     }
 
