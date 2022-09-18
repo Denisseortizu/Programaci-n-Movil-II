@@ -39,12 +39,13 @@ class ViewController: UIViewController {
     //Funcion que realiza la n potencia de un número dado
     func Potencia(numero:Int, potencia:Int){//Recibe dos datos tipo entero
         let resultado = pow(Double(numero), Double(potencia))//Inicializamos resultado
-        print("El número \(numero) elevado a la   \(potencia) es \(resultado)")
+                        //pasamos ambos números a la función pow, antes converdidos a Doubles
+        print("El número \(numero) elevado a la   \(potencia) es \(resultado)")//Imprimimos el resultado
     }
 
-    func RaizCubica(numero:Int,raiz_valor:Double){
-        let resultado = pow(Double(numero), Double(raiz_valor))
-        print("El número \(numero) elevado a la 1^ \(raiz_valor) es \(resultado)")
+    func RaizCubica(numero:Int,raiz_valor:Double){//Inicializamos la función que recibirá un entero y un Double
+        let resultado = pow(Double(numero), Double(raiz_valor))//pasamos ambos números a la función pow, antes converdidos a Doubles
+        print("El número \(numero) elevado a la 1^ \(raiz_valor) es \(resultado)")//Imprimimos el resultado
     }
     
     func esPar(numero:Int)->Bool{
